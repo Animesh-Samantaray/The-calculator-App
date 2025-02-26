@@ -1,0 +1,63 @@
+@import "tailwindcss";
+.btn{
+    @apply  
+    h-full
+     w-1/4 
+    rounded-lg 
+    text-2xl
+      font-bold 
+      cursor-pointer 
+    bg-[linear-gradient(130deg,_#3a3a3a,_#1a1a1a)]
+     text-white 
+    grid place-items-center 
+     hover:bg-[linear-gradient(130deg,_#1a1a1a,_#1a1a1a)] 
+     transition-all 
+     ease-in-out
+     duration-500;
+     
+}
+.btnhalf{
+    @apply  h-full 
+    w-1/2 bg-[linear-gradient(130deg,_#3a3a3a,_#1a1a1a)] 
+    rounded-lg 
+    text-2xl text-white  
+    font-bold
+     cursor-pointer 
+     hover:bg-[linear-gradient(130deg,_#1a1a1a,_#1a1a1a)]
+     transition-all 
+      ease-in-out
+      duration-500;
+}
+.rows{
+    @apply h-[82.857142px]  
+    flex 
+    items-center
+     justify-center 
+     px-4 py-1  gap-1  ;
+}
+.orgbg{
+    @apply 
+    h-full w-1/4 
+    rounded-lg
+     text-4xl  
+    font-bold 
+    cursor-pointer
+     bg-orange-500
+     text-white 
+    grid place-items-center
+     hover:bg-orange-600
+    transition-all 
+      ease-in-out
+      duration-200;
+}
+.orgbgsm{
+    @apply h-full w-1/4 
+    rounded-lg text-3xl 
+     font-bold cursor-pointer
+     bg-orange-500 text-white 
+    grid place-items-center
+     hover:bg-orange-600 
+    transition-all 
+    ease-in-out
+    duration-200;
+}
